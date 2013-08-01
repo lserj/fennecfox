@@ -1,16 +1,17 @@
-*.eml
-modules
-logs
-log
+# Ignore all dotfiles...
+.*
+# except for .gitignore
+!.gitignore
+
+# Ignore Play! working directory #
+db
 lib
-project/project
-project/target
-target
-tmp
+log
+logs
+modules
 .history
 dist
 /.idea
-/*.iml
 /out
 /.idea_modules
 /.classpath
@@ -18,5 +19,8 @@ dist
 /RUNNING_PID
 eclipse
 /.settings
-db
 precompiled
+test-result
+server.pid
+*.iml
+*.eml
