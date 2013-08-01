@@ -1,4 +1,8 @@
+*.eml
+modules
 logs
+log
+lib
 project/project
 project/target
 target
@@ -12,4 +16,7 @@ dist
 /.classpath
 /.project
 /RUNNING_PID
+eclipse
 /.settings
+db
+precompiled
